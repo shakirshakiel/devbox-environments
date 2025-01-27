@@ -24,7 +24,7 @@ jobs:
         run: devbox run -- go version
 
       - name: Start colima
-        run: devbox run -- colima start
+        run: devbox run -- colima start --vm-type=qemu --disk=10 --arch=aarch64 --network-address
 
       - name: Verify docker
         run: devbox run -- docker ps
