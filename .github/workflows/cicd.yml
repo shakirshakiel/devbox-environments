@@ -22,3 +22,6 @@ jobs:
 
       - name: Verify go version
         run: devbox run -- go version
+
+      - name: Verify go version
+        run: devbox run -- docker ps
