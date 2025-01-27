@@ -1,0 +1,11 @@
+# IDE-specific files
+.idea/
+.vscode/
+.devbox/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Devbox specific files
+.devbox/
